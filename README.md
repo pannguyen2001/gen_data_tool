@@ -16,43 +16,12 @@ This project is used to generate mock data for the "Renew capstone project 2023"
 To install the project, follow these steps:
 1. Clone the repository:
 ```
-git clone https://github.com/panpan2001/mock-data.git
+https://github.com/pannguyen2001/gen_data_tool.git
 ```
 2. Change to the project directory:
 ```
-cd mock-data
+cd gen_data_tool
 ```
-## Folder structure
-The project has the following folder structure:
-```
-mock-data/
-├── app.py
-├── data/
-│   ├── customer.py
-│   ├── customer_address.py
-│   ├── customer_contact.py
-│   ├── customer_payment.py
-│   ├── customer_payment_method.py
-│   ├── customer_payment_status.py
-│   ├── customer_payment_type.py
-│   ├── customer_payment_type_status.py
-│   ├── customer_payment_type_status_history.py
-│   └── customer_payment_type_status_history_status.py
-├── requirements.txt
-├── README.md
-└── tests/
-    ├── test_customer.py
-    ├── test_customer_address.py
-    ├── test_customer_contact.py
-    ├── test_customer_payment.py
-    ├── test_customer_payment_method.py
-    ├── test_customer_payment_status.py
-    ├── test_customer_payment_type.py
-    ├── test_customer_payment_type_status.py
-    ├── test_customer_payment_type_status_history.py
-    └── test_customer_payment_type_status_history_status.py
-```
-
 ## Usage
 1. Install virtual environment:
 ```
@@ -98,21 +67,6 @@ For any questions or comments, please contact [Pham Anh Nhat](https://github.com
 
 ## Disclaimer
 This project is for educational purposes only and should not be used for any other purpose.
-
-## Notes
-- The data is generated using pandas library and using unittest and pytest for testing.
-- The data is generated for the "Renew capstone project 2023".
-- The data is generated for the following tables:
-  - `customer`
-  - `customer_address`
-  - `customer_contact`
-  - `customer_payment`
-  - `customer_payment_method`
-  - `customer_payment_status`
-  - `customer_payment_type`
-  - `customer_payment_type_status`
-  - `customer_payment_type_status_history`
-  - `customer_payment_type_status_history_status`
 
 ## References
 - [Pandas documentation](https://pandas.pydata.org/docs/)
