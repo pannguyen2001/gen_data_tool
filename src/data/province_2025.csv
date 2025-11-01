@@ -1,0 +1,35 @@
+Unnamed: 0,Province/city,Number on map,Administrative center,Area (in km2),Population [3],Density (/km2),Administrative divisions,Administrative divisions.1,Administrative divisions.2,Region
+0,Cao Bằng,10,Thục Phán ward,6700.39,573119,85,53,3,0,Northeast
+1,Lạng Sơn,11,Lương Văn Tri ward,8310.18,881384,106,61,4,0,Northeast
+2,Phú Thọ,15,Việt Trì ward,9361.38,4022638,429,133,15,0,Northeast
+3,Quảng Ninh,17,Hạ Long ward,6207.95,1497477,241,22,30,2,Northeast
+4,Thái Nguyên,13,Phan Đình Phùng ward,8375.21,1799489,214,76,15,0,Northeast
+5,Tuyên Quang,12,Minh Xuân ward,13795.5,1865270,135,177,7,0,Northeast
+6,Lào Cai,9,Yên Bái ward,13256.92,1778785,134,89,10,0,Northwest
+7,Điện Biên,7,Điện Biên Phủ ward,9539.93,673091,70,42,3,0,Northwest
+8,Lai Châu,8,Tân Phong ward,9068.73,512601,56,36,2,0,Northwest
+9,Sơn La,14,Chiềng Cơi ward,14108.89,1404587,99,67,8,0,Northwest
+10,Bắc Ninh,16,Tân Tiến ward,3194.72,3619433,1132,66,33,0,Red River Delta
+11,Hưng Yên,18,Phố Hiến ward,2514.81,3567943,1418,93,11,0,Red River Delta
+12,Ninh Bình,19,Hoa Lư ward,3942.62,4412464,1119,97,32,0,Red River Delta
+13,Hà Nội,1,Hoàn Kiếm ward,3359.84,8807523,2621,75,51,0,Red River Delta
+14,Hải Phòng,3,Hồng Bàng ward,3194.72,4664124,1459,67,45,2,Red River Delta
+15,Hà Tĩnh,22,Thành Sen ward,5994.45,1622901,270,60,9,0,North Central Coast
+16,Nghệ An,21,Trường Vinh ward,16486.5,3831694,232,119,11,0,North Central Coast
+17,Quảng Trị,23,Đồng Hới ward,12700.0,1870845,147,69,8,1,North Central Coast
+18,Thanh Hóa,20,Hạc Thành ward,11114.71,4324783,389,147,19,0,North Central Coast
+19,Huế,6,Thuận Hóa ward,4947.11,1432986,289,19,21,0,North Central Coast
+20,Đắk Lắk,26,Buôn Ma Thuột ward,18096.4,3346853,184,88,14,0,South Central Coast
+21,Gia Lai,25,Quy Nhon ward,21576.93,3583693,166,110,25,0,South Central Coast
+22,Lâm Đồng,28,Xuân Hương – Đà Lạt ward,24233.07,3872999,159,103,20,1,South Central Coast
+23,Khánh Hòa,27,Nha Trang ward,8555.86,2243554,262,48,16,1,South Central Coast
+24,Quảng Ngãi,24,Cẩm Thành ward,14832.55,2161755,145,86,9,1,South Central Coast
+25,Đà Nẵng,4,Hải Châu ward,11859.59,3065628,258,70,23,1,South Central Coast
+26,Đồng Nai,30,Trấn Biên ward,12737.18,4491408,352,72,23,0,Southeast
+27,Tây Ninh,29,Long An ward,8536.44,3254170,381,82,14,0,Southeast
+28,Hồ Chí Minh,2,Saigon ward,6772.59,14002598,2067,54,113,1,Southeast
+29,An Giang,32,Rạch Giá ward,9888.91,4952238,500,85,14,3,Mekong Delta
+30,Cà Mau,34,Tân Thành ward,7942.39,2606672,328,55,9,0,Mekong Delta
+31,Đồng Tháp,31,Mỹ Tho ward,5938.64,4370046,735,82,20,0,Mekong Delta
+32,Vĩnh Long,33,Long Châu ward,6296.2,4257581,676,105,19,0,Mekong Delta
+33,Cần Thơ,5,Ninh Kiều ward,6360.83,4199824,660,72,31,0,Mekong Delta

@@ -1,0 +1,49 @@
+# craw data
+# beautifulsoup4
+scrapy
+selenium
+webdriver-manager
+
+# validation
+pydantic
+
+# gen data
+pandas
+numpy
+openpyxl
+python_calamine
+
+# log data
+loguru
+snoop
+
+# web
+flask
+flask_cors
+
+# db
+sqlalchemy
+# flask_sqlalchemy
+psycopg2
+pymongo
+sqlite3
+
+# test
+pytest
+requests
+
+# utils
+python-dotenv
+
+# memory
+cachetools
+
+# profile
+austin-python
+
+# id
+uuid
+bson
+
+# hash password
+bcrypt

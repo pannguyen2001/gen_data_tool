@@ -1,0 +1,117 @@
+--- Folder Structure ---
+.env
+.gitignore
+app.py
+crawl_data.py
+[docs]
+    ├── Data spceification.xlsx
+    └── project_structure.txt
+note.txt
+README.md
+requirements.txt
+[src]
+    ├── [apis]
+    ├── config.py
+    ├── [craw_data]
+        ├── crawl_data.py
+        ├── __init__.py
+        └── [__pycache__]
+            ├── crawl_data.cpython-313.pyc
+            └── __init__.cpython-313.pyc
+    ├── [create_data]
+        ├── create_account.py
+        ├── create_course.py
+        ├── create_course_category.py
+        ├── create_course_student.py
+        ├── create_role.py
+        ├── create_student.py
+        ├── create_student_rating.py
+        ├── create_teacher.py
+        ├── create_teacher_academic.py
+        ├── create_teacher_degree.py
+        ├── __init__.py
+        └── [__pycache__]
+            ├── config.cpython-313.pyc
+            ├── create_account.cpython-313.pyc
+            ├── create_course.cpython-313.pyc
+            ├── create_course_category.cpython-313.pyc
+            ├── create_course_student.cpython-313.pyc
+            ├── create_role.cpython-313.pyc
+            ├── create_student.cpython-313.pyc
+            ├── create_student_rating.cpython-313.pyc
+            ├── create_teacher.cpython-313.pyc
+            ├── create_teacher_academic.cpython-313.pyc
+            ├── create_teacher_degree.cpython-313.pyc
+            ├── setup.cpython-313.pyc
+            └── __init__.cpython-313.pyc
+    ├── [data]
+        └── email_suffix.csv
+    ├── [database]
+        ├── connect_db.py
+        ├── create_mongodb_collection.py
+        ├── create_postgresql_db.py
+        ├── disconnect_db.py
+        ├── [models]
+            ├── accounts.model.py
+            ├── roles.model.py
+            └── __init__.py
+        ├── save_data_to_db.py
+        ├── __init__.py
+        └── [__pycache__]
+            ├── connectDb.cpython-313.pyc
+            ├── connect_db.cpython-313.pyc
+            ├── create_mongodb_collection.cpython-313.pyc
+            ├── create_mongo_db_collection.cpython-313.pyc
+            ├── create_postgresql_db.cpython-313.pyc
+            ├── disconnect_db.cpython-313.pyc
+            ├── saveDataToDb.cpython-313.pyc
+            ├── save_data_to_db.cpython-313.pyc
+            └── __init__.cpython-313.pyc
+    ├── [helpers]
+        ├── create_data_wrapper.py
+        ├── create_prequisite_data.py
+        ├── create_result.py
+        ├── generate_enhanced_random_value.py
+        ├── generate_random_dates.py
+        ├── generate_random_number.py
+        ├── generate_uuid.py
+        ├── get_parent_module_path.py
+        ├── logger_wrapper.py
+        ├── write_data_to_csv_file.py
+        ├── __init__.py
+        └── [__pycache__]
+            ├── create_data_wrapper.cpython-313.pyc
+            ├── create_prequisite_data.cpython-313.pyc
+            ├── create_random_dates.cpython-313.pyc
+            ├── create_result.cpython-313.pyc
+            ├── generate_enhanced_random_value.cpython-313.pyc
+            ├── generate_random_dates.cpython-313.pyc
+            ├── generate_random_number.cpython-313.pyc
+            ├── generate_uuid.cpython-313.pyc
+            ├── get_parent_module_path.cpython-313.pyc
+            ├── logger_wrapper.cpython-313.pyc
+            ├── write_data_to_csv_file.cpython-313.pyc
+            └── __init__.cpython-313.pyc
+    ├── [logs]
+    ├── [tests]
+        ├── config.py
+        └── __init__.py
+    ├── [utils]
+        ├── cache_store.py
+        ├── column_setup.py
+        ├── constants.py
+        ├── logging.py
+        ├── __init__.py
+        └── [__pycache__]
+            ├── cache_store.cpython-313.pyc
+            ├── columnSetup.cpython-313.pyc
+            ├── column_setup.cpython-313.pyc
+            ├── constants.cpython-313.pyc
+            ├── decorators.cpython-313.pyc
+            ├── logging.cpython-313.pyc
+            └── __init__.cpython-313.pyc
+    ├── __init__.py
+    └── [__pycache__]
+        ├── config.cpython-313.pyc
+        └── __init__.cpython-313.pyc
+trash_code.txt
