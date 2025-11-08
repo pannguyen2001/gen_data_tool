@@ -1,0 +1,44 @@
+All note during doing this project
+https://docs.google.com/document/d/1YlQYTFnQtIdS9qdAt5XhC6DzYmA3Lfqld2kmqmWDPrU/edit?tab=t.emqnv3hvuuxo
+
+Popular email domain:
+https://helplandingpage.misa.vn/knowledge-base/danh-sach-ten-mien-pho-bien/
+
+Avtive venv
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+ .venv\Scripts\Activate.ps1
+
+Ayu dark color theme
+
+package can be used:
+# Data validation
+pydantic
+#
+# selenium
+
+# db
+sqlalchemy
+pymongodb
+
+# redis
+redis
+
+# cache
+# cachetools
+# lrucache
+
+# email
+# flask_mail
+
+# auth
+# flask_jwt_extended
+
+# utils
+# pyjwt
+python-dotenv
+# python-multipart
+# python-dateutil
+
+# psycopg2-binary
+# psycopg2
+# psycopg2cffi
