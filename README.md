@@ -27,15 +27,16 @@ cd gen_data_tool
 ```
 python -m venv .venv
 ```
-2. Activate the virtual environment:
+2. Config databse info and connection in .env file
+3. Activate the virtual environment:
 ```
 source venv/bin/activate or .venv\Scripts\Activate.ps1
 ```
-3. Install the required libraries:
+4. Install the required libraries:
 ```
 pip install -r requirements.txt
 ```
-2. Run the script:
+5. Run the script:
 ```
 python app.py
 ```
