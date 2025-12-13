@@ -53,7 +53,7 @@ python -m flask run
 ```
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details
+No license is required to use this project.
 
 ## Contributing
 Contributions are welcome! Please feel free to submit pull requests or open issues.
