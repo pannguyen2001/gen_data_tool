@@ -26,7 +26,6 @@ sqlalchemy
 # flask_sqlalchemy
 psycopg2
 pymongo
-sqlite3
 
 # test
 pytest
@@ -43,7 +42,6 @@ austin-python
 
 # id
 uuid
-bson
 
 # hash password
 bcrypt

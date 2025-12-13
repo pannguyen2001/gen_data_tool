@@ -1,0 +1,10 @@
+__pycache__/
+logs/
+screenshot/
+.vscode/
+.venv/
+*.log
+trash_code.txt
+single_test.ipynb
+*.env
+.gitignore

@@ -36,6 +36,8 @@ def connect_mongodb_db():
 
     return db
 
+# =========== SQLite ===========
+
 @logger_wrapper
 def connnect_db(db_type: str = DatabaseType.POSTGRESQL.value):
     """_summary_: Connect to database
