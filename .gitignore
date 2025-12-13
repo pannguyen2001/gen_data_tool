@@ -6,5 +6,5 @@ screenshot/
 *.log
 trash_code.txt
 single_test.ipynb
-*.env
+config.env
 .gitignore
