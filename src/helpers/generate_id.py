@@ -1,5 +1,5 @@
 import uuid
-from bson import ObjectId
+from bson.objectid import ObjectId
 from loguru import logger
 from src.utils import DatabaseType
 
