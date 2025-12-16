@@ -24,7 +24,7 @@ flask_cors
 # db
 sqlalchemy
 # flask_sqlalchemy
-psycopg2
+psycopg2-binary
 pymongo
 
 # test
