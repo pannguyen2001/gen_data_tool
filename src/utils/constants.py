@@ -40,7 +40,7 @@ author_full_name = "Pham Anh Nhat"
 author_email = "truonghoc19102001@gmail.com"
 
 # Logging
-is_log_file = True
+is_log_file = False
 log_file_path = "src/logs"
 console_log_format = f"{AnsiColors.BOLD.value}%(levelname)s{AnsiColors.NORMAL.value} %(filename)s:%(lineno)d\t{AnsiColors.RESET.value}%(message)s "
 file_log_format = "[%(levelname)s][%(asctime)s][%(filename)s:%(lineno)d]: %(message)s"

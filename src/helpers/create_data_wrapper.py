@@ -49,6 +49,9 @@ def create_data_wrapper(func: Callable) -> Callable:
                 df.insert(0, CommonColumns._ID.value, _id)
 
                 cache_df(cache_key, df)
+                df.to_csv(f"/home/user/python/src/gen_data_sample/{func.__name__}.csv", index=False)
+                result.result = CreateDataResult.SUCCESS.value
+
 
         except Exception as e:
             logger.error(f"{func.__name__} has error: {e}")
@@ -59,6 +62,8 @@ def create_data_wrapper(func: Callable) -> Callable:
         finally:
             result.end = timeit.default_timer()
             logger.info(f"Finish creating data for {func.__name__}")
+            import json
+            logger.info(f"Result:\n{json.dumps(result.__dict__(), indent=4)}")
 
         return result.__dict__()
 

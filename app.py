@@ -18,9 +18,9 @@ def main(input):
             "teacher_degree": create_data.create_teacher_degree,
             "student": create_data.create_student,
             "teacher": create_data.create_teacher,
-            "course": create_data.create_course,
-            "course_student": create_data.create_course_student,
-            "student_rating": create_data.create_student_rating,
+            # "course": create_data.create_course,
+            # "course_student": create_data.create_course_student,
+            # "student_rating": create_data.create_student_rating,
         }
         final_result = []
         connection = database.connect_db.connnect_db(DB_TYPE)
