@@ -1,3 +1,14 @@
+"""
+Cache setup for the application.
+Include:
+    - Global cache.
+    - In-memory TTL cache.
+    - Invalidate cache.
+    - Clear all cache.
+Instead of save data to excel file or sql file, save temporatory in cache and clear all after generation.
+Suitable for small amount of data and decrease read/write data cost.
+"""
+
 from cachetools import TTLCache
 from typing import Optional
 import pandas as pd

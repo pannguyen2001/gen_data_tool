@@ -1,13 +1,15 @@
-# Gennerate mock data for "Renew capstone project 2023"
+# Gennerate mock data for "Capstone project 2023"
 
 ## Description
-This project is used to generate mock data for the "Renew capstone project 2023". The project uses pandas library for generating data, flask framework for serving the data and unittest and pytest for testing. Follow TDD principle for development.
+This project is used to generate mock data for the "Capstone project 2023". The project uses pandas library for generating data and unittest and pytest for testing.
 
 ## Features
-- Generate mock data for the "Renew capstone project 2023"
+- Generate mock data for the "Capstone project 2023"
 - Serve the data using flask framework
 - Test the data using unittest and pytest
 - Use pandas library for generating data
+
+Futher:
 - Use scrapy library for scraping data from the internet
 - Use requests library for making http requests
 - Use BeautifulSoup library for parsing html data
@@ -47,12 +49,6 @@ To run the tests, use the following command:
 python -m unittest discover
 ```
 
-## Deployment
-To deploy the application, use the following command:
-```
-python -m flask run
-```
-
 ## License
 No license is required to use this project.
 
@@ -90,3 +86,16 @@ This project is for educational purposes only and should not be used for any oth
 ## Version
 1.0.0
 
+## All projects in Capstone Project ecosystem
+- Capstone project (cloned, using for testting purpose):
+    1. Github FE: https://github.com/pannguyen2001/datn-fe
+    2. Github BE: https://github.com/pannguyen2001/datn-be
+    3. App: https://datn-fe-sooty.vercel.app
+- Generate data tool (correct data, to save to db, reduce time prepare data):
+    1. Github: https://github.com/pannguyen2001/gen_data_tool
+- API testing:
+    1. Github: <upcoming>
+- Selenium testing:
+    1. Github: <upcomming>
+- Data validation (for validating data before save to db or use api to process):
+    1. Github: https://github.com/pannguyen2001/data-da-ds-de

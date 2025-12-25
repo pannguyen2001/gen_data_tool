@@ -1,8 +1,27 @@
+"""
+Constant data for the data generator.
+Include:
+    - Common datetime format.
+    - Ansi color codes.
+    - Create data result enum.
+    - Author info.
+    - Logging setup.
+    - Database type enum.
+    - Gen data amount.
+    - Password.
+    - Avatar url.
+    - Common description.
+    - Database info.
+    - Crawled data: email suffix, Vietnam provices and universities.
+"""
+
 import pytz
 import datetime
 import enum
 import os
+import string
 import pandas as pd
+import numpy as np
 from dotenv import load_dotenv
 
 # ========== Enums ==========
@@ -93,3 +112,5 @@ UNIVERSITY = pd.read_csv("src/data/university.csv")["University"].tolist()
 PROVINCE = pd.read_csv("src/data/province_2025.csv")["Province/city"].tolist()
 
 
+# ========== Negative data, for generating invalid data ==========
+empty_value_list: list = ["", np.nan, "null"]

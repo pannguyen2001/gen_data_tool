@@ -1,3 +1,11 @@
+"""
+Column setups for the data generator.
+Include:
+    - Common column names
+    - Detail enum column per each table.
+    - Common config for each table.s
+"""
+
 from enum import Enum
 from src.utils import GEN_DATA_AMOUNT
 

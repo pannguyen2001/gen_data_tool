@@ -57,7 +57,6 @@ def create_account():
 
     # status
     df[AccountConfig.STATUS.value] = AccountConfig.STATUS_VALUES.value["active"]
-    df.to_csv("account.csv", index=False)
 
     return df
 

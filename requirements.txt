@@ -29,7 +29,9 @@ pymongo
 
 # test
 pytest
+pytest-html
 requests
+selenium
 
 # utils
 python-dotenv

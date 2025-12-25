@@ -61,19 +61,3 @@ def main(input):
 if __name__ == "__main__":
     input = input("Enter the function name: ")
     main(input)
-
-# import snoop
-# snoop.install(color=False, overwrite=True, out=r"C:\Users\ASUS\Code\renew_capstone_project - Copy\gen_data_tool\src\logs\snoop_log.log")
-
-# @snoop
-# def number_to_bits(number):
-#     if number:
-#         bits = []
-#         while number:
-#             number, remainder = divmod(number, 2)
-#             bits.insert(0, remainder)
-#         return bits
-#     else:
-#         return [0]
-
-# number_to_bits(6)
