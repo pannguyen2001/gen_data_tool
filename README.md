@@ -91,11 +91,11 @@ This project is for educational purposes only and should not be used for any oth
     1. Github FE: https://github.com/pannguyen2001/datn-fe
     2. Github BE: https://github.com/pannguyen2001/datn-be
     3. App: https://datn-fe-sooty.vercel.app
-- Generate data tool (correct data, to save to db, reduce time prepare data):
+- Generate data tool (auto generate correct data, to save to db, reduce time prepare data):
     1. Github: https://github.com/pannguyen2001/gen_data_tool
 - API testing:
-    1. Github: <upcoming>
-- Selenium testing:
-    1. Github: <upcomming>
-- Data validation (for validating data before save to db or use api to process):
+    1. Github: https://github.com/pannguyen2001/api_test_cap_prj/
+- UI testing using selenium:
+    1. Github: (upcoming)
+- Data validation:
     1. Github: https://github.com/pannguyen2001/data-da-ds-de
