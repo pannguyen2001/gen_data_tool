@@ -21,3 +21,5 @@ def generate_random_number(amount: int = 1) -> int:
         random_number = int(random_str)
 
         return random_number
+
+

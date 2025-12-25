@@ -1,3 +1,7 @@
+"""
+Logging setup for the application.
+"""
+
 import logging
 import re
 import os

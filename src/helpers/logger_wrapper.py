@@ -21,7 +21,7 @@ def logger_wrapper(func: Callable) -> Callable:
             return func(*args, **kwargs)
         except Exception as e:
             tb = "".join(traceback.format_tb(e.__traceback__))
-            logger.error(f"{func.__name__} has error:\n\x1b[31m{tb}\x1b[0m]")
+            logger.error(f"\x1b[31m{func.__name__}\x1b[0m has error:\n\x1b[31m{tb}\x1b[0m]")
             return None
 
     return wrap

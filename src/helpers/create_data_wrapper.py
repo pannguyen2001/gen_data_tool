@@ -52,7 +52,6 @@ def create_data_wrapper(func: Callable) -> Callable:
                 df.to_csv(f"/home/user/python/src/gen_data_sample/{func.__name__}.csv", index=False)
                 result.result = CreateDataResult.SUCCESS.value
 
-
         except Exception as e:
             logger.error(f"{func.__name__} has error: {e}")
             result.result = CreateDataResult.FAIL.value
