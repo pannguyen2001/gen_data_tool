@@ -23,7 +23,8 @@ def main(input):
             # "student_rating": create_data.create_student_rating,
         }
         final_result = []
-        connection = database.connect_db.connnect_db(DB_TYPE)
+        connection = None
+        # database.connect_db.connnect_db(DB_TYPE)
 
         if input in create_data_function_mapping.keys():
             final_result.append(create_data_function_mapping[input]())
@@ -33,23 +34,23 @@ def main(input):
         else:
             logger.error(f"Function {input} not found")
 
-        if connection is not None:
-            # Save data to database
-            save_to_db_start = timeit.default_timer()
-            database.save_data_to_db(DB_TYPE, connection)
-            save_to_db_end = timeit.default_timer()
-            save_to_db_total_time = save_to_db_end - save_to_db_start
+        # if connection is not None:
+        #     # Save data to database
+        #     save_to_db_start = timeit.default_timer()
+        #     database.save_data_to_db(DB_TYPE, connection)
+        #     save_to_db_end = timeit.default_timer()
+        #     save_to_db_total_time = save_to_db_end - save_to_db_start
 
-            # Count total time
-            df_final_result = pd.DataFrame(final_result)
-            total_time = round(df_final_result["time"].sum() + save_to_db_total_time, 2)
-            avg_time = round(df_final_result["time"].mean() + save_to_db_total_time/df_final_result.shape[0],2)
-            # logger.info(f"\n{df_final_result}")
-            logger.info(f"Total create time (s): {total_time}")
-            logger.info(f"Average create time (s): {avg_time}")
+        #     # Count total time
+        #     df_final_result = pd.DataFrame(final_result)
+        #     total_time = round(df_final_result["time"].sum() + save_to_db_total_time, 2)
+        #     avg_time = round(df_final_result["time"].mean() + save_to_db_total_time/df_final_result.shape[0],2)
+        #     # logger.info(f"\n{df_final_result}")
+        #     logger.info(f"Total create time (s): {total_time}")
+        #     logger.info(f"Average create time (s): {avg_time}")
 
-            # Disconnect database
-            database.disconnect_db(DB_TYPE, connection)
+        #     # Disconnect database
+        #     database.disconnect_db(DB_TYPE, connection)
 
         # Clear cache
         clear_all_cache()

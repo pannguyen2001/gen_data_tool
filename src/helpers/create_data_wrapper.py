@@ -11,6 +11,8 @@ from src.utils.column_setup import CommonColumns
 from src.utils.constants import DateTimeFormats, tzInfo, CreateDataResult
 from src.utils.logging import logger
 from src.utils.cache_store import cache_df, invalidate_cache
+from src.helpers.write_data_to_excel_file import write_data_to_excel_file
+
 
 @logger_wrapper
 def create_data_wrapper(func: Callable) -> Callable:
@@ -49,7 +51,8 @@ def create_data_wrapper(func: Callable) -> Callable:
                 df.insert(0, CommonColumns._ID.value, _id)
 
                 cache_df(cache_key, df)
-                df.to_csv(f"/home/user/python/src/gen_data_sample/{func.__name__}.csv", index=False)
+                file_path: str = f"/home/user/python/src/gen_data_sample/data_generation.xlsx"
+                write_data_to_excel_file(data_input=df,file_out=file_path, sheet_name=func.__name__.replace("create_", ""))
                 result.result = CreateDataResult.SUCCESS.value
 
         except Exception as e:

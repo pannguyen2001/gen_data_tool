@@ -98,4 +98,8 @@ This project is for educational purposes only and should not be used for any oth
 - UI testing using selenium:
     1. Github: (upcoming)
 - Data validation:
+<<<<<<< Updated upstream
     1. Github: https://github.com/pannguyen2001/data-da-ds-de
+=======
+    1. Github: https://github.com/pannguyen2001/data-da-ds-de
+>>>>>>> Stashed changes
